@@ -69,14 +69,17 @@ public class mainProyecto1 extends JPanel implements KeyListener
 		{
 			//g.setColor(Color.DARK_GRAY);
 			
-			g.setColor(Color.white);
 			
+			/*
 			g.drawString("Android x " + posx, 5, 20);
 			g.drawString("Android y " + posy, 5, 30);
 			g.drawString("Manzana x " + m.x, 5, 40);
 			g.drawString("Manzana y " + m.y, 5, 50);
+			*/
+			g.setColor(Color.DARK_GRAY);
 			g.drawString(sefue()+" ", 5, 60);
-			g.drawString("Puntuacion: " +score+"00" , 5, 70);
+			g.setColor(Color.white);
+			g.drawString("Puntuacion: " +score+"00" , 5, 20);
 			g.drawLine(0, 370, 800, 370);
 			dibujar(color, posx, posy, g);
 			for (int i = 0; i < Manzana.size(); i++) 
