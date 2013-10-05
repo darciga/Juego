@@ -1,0 +1,15 @@
+															Graficación
+													Proyecto para evaluar la unidad I.
+
+Realizar un programa en Java que modifique la dirección de un icono (flecha o figura al gusto, debe ser de 32 bits) a través de las teclas.
+La figura debe estar en la parte de abajo de la pantalla y de la parte de arriba caen de manera aleatoria de diferentes direcciones objetos, figuras, comida, estrellas, etc.
+Las cuales deben ser atrapadas por la figura que manipula con las teclas, las figuras que caen están controladas por un hilo. 40%
+Para detectar la colisión puede utilizar Java 2D o generar un método de colisión que detecte la intersección de puntos de una figura con otra en las aéreas rectangulares. 
+Adicional se puede agregar cambios de icono al hacer movimientos de dirección, cambiar la velocidad de caída, movimiento y además de controlar score y tiempos de perdida, etc.
+El programa de base incluye una página JPanel con JFrame y el objeto a animar se espera que el proyecto siga incluyendo esos elementos base.
+El programa se puede entregar a  partir de la entrega de este documento y la fecha límite de entrega es el día 4 de octubre.
+Se harán revisiones periódicas para verificar avances y que se esté trabajando en el proyecto (Se preguntara sobre su desarrollo).
+
+						La fecha de la evaluación escrita de la unidad I es el día 11 de Septiembre en el K3.
+
+La colision es un if con dos condiciones
